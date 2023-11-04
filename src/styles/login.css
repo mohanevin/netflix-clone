@@ -1,0 +1,16 @@
+.login-btn
+{
+    background: #e50914;
+}
+
+.signin-text
+{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+input{
+    background: #333;
+}
