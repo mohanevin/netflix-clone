@@ -6,6 +6,7 @@ import SecondaryContainer from './SecondaryContainer'
 import usePopularMovies from '../hooks/usePopularMovies'
 import useTopRated from '../hooks/useTopRated'
 
+
 const Browse = () => {
   useNowPlayingMovies()
   usePopularMovies()
@@ -13,6 +14,7 @@ const Browse = () => {
   return (
     <div>
       <Header/>
+      
       <MainContainer/>
       <SecondaryContainer/>
     </div>
